@@ -1,6 +1,6 @@
 # DiVR: Learning When Diffusion Language Models Should Regenerate
 
-Code for the paper *Learning When Diffusion Language Models Should Regenerate* (arXiv, 2026).
+Code for the paper [*Learning When Diffusion Language Models Should Regenerate*](https://arxiv.org/abs/2611.17320) (arXiv 2611.17320, 2026).
 
 DiVR (Diffusion Verifier for Regeneration) is an outcome-supervised verifier for masked diffusion language
 models. It scores the partially masked canvas at every block boundary and decides whether the block just
@@ -100,6 +100,18 @@ The block decoder, the prompts for GSM8K / MATH-500 / Countdown and the MATH ans
 (`divr/math_equiv.py`) follow [d1](https://github.com/dllm-reasoning/d1) (Zhao et al., 2025, Apache-2.0;
 see `third_party/d1-LICENSE`). The SFT trainer adapts d1's masked-diffusion SFT loss. The Prism baseline is a
 port of the released `hts_sampler.py` of Bai et al. (2026).
+
+## Citation
+
+```bibtex
+@article{oh2026divr,
+  title={Learning When Diffusion Language Models Should Regenerate},
+  author={Oh, Minhae and Kim, Jeonghye and Koo, Jinwoo and Kim, Yeongoon and Seo, Jimin and Seol, Minsik and Lee, Jungwoo},
+  journal={arXiv preprint arXiv:2611.17320},
+  year={2026},
+  url={https://arxiv.org/abs/2611.17320}
+}
+```
 
 ## License
 
